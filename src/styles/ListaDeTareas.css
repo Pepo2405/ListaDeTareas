@@ -1,0 +1,10 @@
+.tareas-lista-contenedor{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.tarea-contenedor .completada {
+    background-color: #5a01a7;
+    text-decoration: line-through;
+  }

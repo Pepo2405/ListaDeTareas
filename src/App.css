@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+html,
+body {
+  color: white;
+  background-color: #1b1b32;
+  font-family: Lato, sans-serif;
   min-height: 100vh;
+}
+.App-tareas {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.pizza:active{
+  animation: pause;
+}
+.header-contenedor {
+  width: 100%;
+  margin: 20px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.tarea {
+  color: #1b1b32;
 }
 
-.App-link {
-  color: #61dafb;
+/* Lista de tareas */
+.tareas-lista-principal {
+  max-width: 600px;
+  background-color: #d0d0d5;
+  min-height: 500px;
+  padding: 25px;
+  margin: 10px;
+  justify-content: center;
+  border-radius: 15px;
+  box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 0.439);
+  margin-top: 25px;
+}
+.tareas-lista-principal:hover {
+  box-shadow: 0px 0px 6px 3px rgba(255, 255, 255, 0.439);
+  transition: 0.2s;
+}
+.tareas-lista-principal h1{
+  margin-bottom: 15px;
+}
+.logo {
+  color: #11a0d8;
+  margin: 15px;
+}
+h1 {
+  color: #1b1b32;
+  font-size: 32px;
+  font-family: Roboto, sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+

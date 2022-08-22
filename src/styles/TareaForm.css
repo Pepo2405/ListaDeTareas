@@ -1,0 +1,51 @@
+.tarea-formulario{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0 15px 0;
+    flex: 1;
+
+}
+.tarea-input{
+    max-width: 300px;
+    font-size: 18px;
+    background-color: white;
+    padding: 14px 32px 14px 16px;
+    border-radius: 5px 0 0 5px;
+    border:2px solid #11a0d8;
+    outline: none;
+}
+
+/* 0f85b4 celeste lindo */
+.tarea-boton {
+    padding: 16px;
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    border:none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    outline: none;
+    background: #11a0d8;
+    color:#fff;
+    text-transform: capitalize;
+    max-height: 52.6px;
+}
+@media(max-width: 484px){
+    .tarea-boton{
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+    .tarea-boton:active{
+        scale: 0.98;
+    }
+    .header-contenedor {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+      }
+      .pizza{
+color: rgb(253, 187, 63);        }
+}
